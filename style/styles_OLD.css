@@ -1,0 +1,139 @@
+weaver /* CSS Document */
+
+body {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	/*font-color: #EBEDE8;*/
+	}
+	
+textarea {
+	font-family: Courier-new, monospace;
+	font-size: 13px;
+	border-color : black;
+	border-width : 1px;
+	border-style : solid;
+	background-color : #FFFFFF;
+	color: 	#000;
+	height:300px;
+	width:600px;
+	}
+	
+h1 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+h2{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h3,h4{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+	
+.fill{
+	background: #383838 /*url(./footer_lodyas.png) repeat-x*/;
+	display: inline;
+	padding: 5px 5px 6px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25); 
+	position: relative;
+	cursor: pointer;
+	width:200px;
+	}
+
+.searches,
+.searches_cell{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+/* Sizes ---------- */
+.small.fill {
+	font-size: 11px;
+	}
+.medium.fill {
+	font-size: 13px;
+	}
+.large.fill {
+	font-size: 14px;
+	padding: 8px 14px 9px;
+	}
+.youtubered.fill {
+	background-color: #c4302b;
+	}
+
+.paper,
+.description,
+.contact {
+	background:#D9D9D9;
+	padding: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;/*courier-new, monospace;*/ /*Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 13px;
+    text-align: left;
+    }
+
+a {
+    font-size:13px;
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    color: #000;
+    text-decoration : none;
+    font-weight: bold;
+	}
+
+
+/* ----- FOOTER ----- */
+
+.footer_class {
+	color: #000;
+    font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif, monospace;
+	}
+
+.cell_fixed {
+    background:#D3D3D3;
+	padding: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    text-align: left;
+    }
+
+a:visited { /* visited link */
+	color:#3162E0;
+	text-decoration:none;
+	} 
+	
+a:hover { /* mouse over link */
+	color:#5D90E0;
+	text-decoration:none;
+	} 
+	
+a:active { /* selected link */
+	color:#4596FF;
+	text-decoration:none;
+	}
+
+.fill:visited { /* visited link */
+	color:#3162E0;
+	text-decoration:none;
+	}
+	
+.fill:hover { /* mouse over link */
+	color:#5D90E0;
+	text-decoration:none;
+	}
+	
+.fill:active { /* selected link */
+	color:#4596FF;
+	text-decoration:none;
+	}
